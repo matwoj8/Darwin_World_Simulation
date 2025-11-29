@@ -43,7 +43,8 @@ The simulator supports:
 ## 📊 Screenshots
 
 # 🔧 Parametry Startowe
-Initial Simulation Parameters
+Initial Simulation Parameters  
+
 ![Map Stats](./Start.png)
 
 # 🌍 Map Statistics
