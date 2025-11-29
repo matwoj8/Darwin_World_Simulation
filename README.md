@@ -1,6 +1,6 @@
 # Darwin World Simulator
 
-A visual, interactive simulator of natural selection written in Java with JavaFX, where animals explore the world, gather energy, escape fire, reproduce, mutate and evolve with multiple simulations running in parallel.
+A visual simulator of natural selection written in Java with JavaFX, where animals explore the world, gather energy, escape fire, reproduce, mutate and evolve with multiple simulations running in parallel.
 
 ---
 
