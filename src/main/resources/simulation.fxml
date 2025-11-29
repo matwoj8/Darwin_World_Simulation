@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Label?>
+
+<?import javafx.scene.control.TextField?>
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            minHeight="550.0" minWidth="800.0"
+            fx:controller="agh.ics.oop.model.presenter.SimulationPresenter">
+    <left>
+        <VBox alignment="CENTER" spacing="10">
+            <GridPane hgap="10" vgap="10">
+
+                <TextField text="Statistics" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+                <Label fx:id="dayLabel" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+                <Label fx:id="animalCountLabel" GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+                <Label fx:id="grassCountLabel" GridPane.columnIndex="0" GridPane.rowIndex="3"/>
+                <Label fx:id="freeSpaceCountLabel" GridPane.columnIndex="0" GridPane.rowIndex="4"/>
+                <Label fx:id="mostPopularGeneLabel" GridPane.columnIndex="0" GridPane.rowIndex="5"/>
+                <Label fx:id="averageEnergyLabel" GridPane.columnIndex="0" GridPane.rowIndex="6"/>
+                <Label fx:id="averageLifeLengthLabel" GridPane.columnIndex="0" GridPane.rowIndex="7"/>
+                <Label fx:id="averageChildrenCountLabel" GridPane.columnIndex="0" GridPane.rowIndex="8"/>
+
+                <TextField text="Statistics of selected animal" GridPane.columnIndex="0" GridPane.rowIndex="9" />
+                <Label fx:id="genomeLabel" GridPane.columnIndex="0" GridPane.rowIndex="10"/>
+                <Label fx:id="activeGeneLabel" GridPane.columnIndex="0" GridPane.rowIndex="11"/>
+                <Label fx:id="energyLabel" GridPane.columnIndex="0" GridPane.rowIndex="12"/>
+                <Label fx:id="eatenPlantsLabel" GridPane.columnIndex="0" GridPane.rowIndex="13"/>
+                <Label fx:id="childrenCountLabel" GridPane.columnIndex="0" GridPane.rowIndex="14"/>
+                <Label fx:id="descendantsCountLabel" GridPane.columnIndex="0" GridPane.rowIndex="15"/>
+                <Label fx:id="lifeLengthLabel" GridPane.columnIndex="0" GridPane.rowIndex="16"/>
+                <Label fx:id="deathDayLabel" GridPane.columnIndex="0" GridPane.rowIndex="17"/>
+
+            </GridPane>
+        </VBox>
+    </left>
+    <center>
+        <VBox alignment="CENTER">
+            <Button fx:id="startStopButton" text="Start" onAction="#onStartStopClicked" />
+            <GridPane fx:id="mapGrid" gridLinesVisible="true" alignment="CENTER"  />
+        </VBox>
+    </center>
+</BorderPane>
