@@ -27,7 +27,7 @@ The simulator supports:
 ✔️ Fire events that instantly kill creatures  
 ✔️ Advanced statistics:  
 - global map statistics
-- single-animal statistics
+- single-animal statistics  
 ✔️ JavaFX graphical interface  
 ✔️ Smooth animation & simulation logic  
 
